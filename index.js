@@ -1,4 +1,6 @@
 document.getElementById("butt").addEventListener("click", chooseItem)
+document.getElementById("image").addEventListener("click", chooseItem)
+
 
 let list = []
 generateList()
