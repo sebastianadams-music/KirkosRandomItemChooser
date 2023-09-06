@@ -1,5 +1,6 @@
 document.getElementById("butt").addEventListener("click", chooseItem)
 document.getElementById("image").addEventListener("click", chooseItem)
+document.getElementById("reset").addEventListener("click", reset)
 
 
 let list = []
