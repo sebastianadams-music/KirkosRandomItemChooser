@@ -5,11 +5,17 @@ document.getElementById("image").addEventListener("click", chooseItem)
 let list = []
 generateList()
 
+function reset(){
+    var img = document.getElementById("image")
+    img.src = "material/instructions.png" 
+
+}
+
 function chooseItem(){
     var item = list.random()
     // console.log(item)
     var img = document.getElementById("image")
-    console.log(img)
+    // console.log(img)
     img.src = item 
 
 }
